@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xColors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="xcolors-container">
+        <div class="xcolors-header">
+            <h1 class="xcolors-title">
+                xColors Generator
+            </h1>
+        </div>
+
+        <div class="xcolors-wrapper">
+            <div class="xcolors-controls">
+                <div class="xcolors-search-container">
+                    <input 
+                        type="text" 
+                        class="xcolors-search-input" 
+                        id="xcolorsSearchInput" 
+                        placeholder="Enter number of colors to generate (1-20)"
+                    >
+                    <button class="xcolors-btn xcolors-btn-generate" id="xcolorsGenerateBtn">
+                        Generate
+                    </button>
+                </div>
+            </div>
+
+            <div class="xcolors-error" id="xcolorsError"></div>
+
+            <div class="xcolors-loading" id="xcolorsLoading" style="display: none;">
+                <div class="xcolors-spinner"></div>
+                <p>Loading colors...</p>
+            </div>
+
+            <div class="xcolors-results" id="xcolorsResults"></div>
+        </div>
+
+        <div class="xcolors-footer">
+            <p class="xcolors-credits">
+                API Source: 
+                <a href="https://x-colors.yurace.pro/api/random" target="_blank">x-colors.yurace.pro</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
