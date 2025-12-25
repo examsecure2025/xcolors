@@ -41,3 +41,6 @@ A random color generator application that fetches beautiful random colors from t
 
 This application uses the xColors API from x-colors.yurace.pro
 
+#Screenshot
+<img width="1293" height="736" alt="image" src="https://github.com/user-attachments/assets/bcf04f39-1e1c-42a2-ae91-095e3ad3c1ca" />
+
